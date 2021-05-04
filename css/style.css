@@ -1,9 +1,4 @@
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
+
 
  /**RESET**/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
@@ -15,7 +10,7 @@ table{border-collapse:collapse;border-spacing:0;}
 
 /** Background image is set on html element **/
 html{
-	background: url(../images/bg-image.jpg);
+
 	margin: 0;
 	background-position: center;
 	background-size: cover;
@@ -26,19 +21,18 @@ html{
 /**** We put pattern mask in body ***/
 body{
 	margin:0;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAG0lEQVQIW2NkYGB4BsQogBGXYBo2lVgFqW0mAAMyBTnkxKBjAAAAAElFTkSuQmCC) repeat;
+background-color: black;
 	text-align: center;
-	text-transform: uppercase;
+	
 	background-position: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h1{
 	color: #fd3267;
-	font-size: 72px;
-	font-size: 5.9vw;
+	font-size: 60px;
 	position: absolute;
-	top: 18%;
+	top: 30%;
 	width: 100%;
 	text-align: center;
 }
@@ -48,7 +42,7 @@ h2 {
 	font-size: 27px;
 	font-size: 2vw;
 	margin: 0 auto;
-	color: #fff;
+	color: #fd3267;
 	position: absolute;
 	top: 34%;
 	width: 100%;
@@ -65,7 +59,7 @@ a{
 }
 
 .wrapper{
-	min-height: 500px;
+	min-height: 450px;
 	position: relative;
 }
 
@@ -226,3 +220,4 @@ ul.social > li > a:hover .icon-dribbble-1{
 		font-size: 3.5vw
 	}
 }
+
