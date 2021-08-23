@@ -119,3 +119,35 @@
     }
 
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+    .common_btn button {
+        width: 100%;
+        font-size: 14px;
+        white-space: nowrap;
+        padding-left: 20px;
+    }
+    .common_btn button img {
+        max-width: 30px;
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
