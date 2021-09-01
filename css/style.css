@@ -451,10 +451,10 @@ a:focus {
   padding-top: 35px;
 }
 .contact_map p {
-  max-width: 215px;
+  max-width: 224px;
   font-size: 16px;
-  line-height: 34px;
-  color: #585858;
+  line-height: 33px;
+  color: #ec597c;
   font-weight: 300;
   padding-left: 15px;
 }
